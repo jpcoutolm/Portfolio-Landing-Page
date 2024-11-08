@@ -37,6 +37,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Ação ao clicar no botão do WhatsApp
     whatsappButton.addEventListener('click', function () {
-        window.location.href = 'https://wa.me/5599999999999';
+        window.open('https://wa.me/5562985581251', '_blank');
     });
 });
