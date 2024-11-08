@@ -828,12 +828,7 @@ a {
     text-align: right;
 }
 
-.line {
-    flex-grow: 1;
-    height: 1px;
-    background-color: var(--color-gray2);
-    margin: 0 4rem;
-}
+
 
 /*************** PORTFOLIO *****/
 .portfolio {
@@ -910,8 +905,8 @@ a {
 
 .slide {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 70vh;
+    height: 70vh;
     overflow: hidden;
 }
 
@@ -961,8 +956,6 @@ a {
     width: 50%;
     height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .conteudo-textos-case {

@@ -6,49 +6,65 @@
     }
 
     /************************** SOBRE ***/
-    .sobre {
-        height: auto;
-    }
+.sobre {
+    height: auto;
+}
 
-    .container-sobre {
-        height: auto;
-    }
-    
-    .headline-sobre {
-        height: auto;
-        position: relative;
-    }
+.container-sobre {
+    height: auto;
+}
 
-    .conteudo-sobre {
-        flex-direction: column-reverse;
-        height: auto;
-        gap: 3rem;
-    }
+.headline-sobre {
+    height: auto;
+    position: relative;
+}
 
-    .left-sobre {
-        width: 100%;
-        height: auto;
-    }
+.conteudo-sobre {
+    flex-direction: column-reverse;
+    height: auto;
+    gap: 3rem;
+}
 
-    .right-sobre {
-        width: 100%;
-        height: auto;
-    }
+.left-sobre {
+    width: 100%;
+    height: auto;
+}
 
+.right-sobre {
+    width: 100%;
+    height: auto;
+}
+
+.imagem-sobre {
+    justify-content: center;
+    width: 80%; /* Ajuste da largura da imagem para telas menores */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Ajuste adicional para alinhamento em telas menores */
+.complemento-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.complemento-sobre img {
+    position: unset;
+    width: 100%;
+}
+
+/* Estilo extra para telas muito pequenas */
+@media (max-width: 480px) {
     .imagem-sobre {
-        justify-content: center;
+        width: 80%; /* Ajuste para ainda menor largura em dispositivos muito pequenos */
     }
 
-    .complemento-sobre {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .headline-sobre span {
+        font-size: 2rem; /* Reduz o tamanho do texto */
     }
+}
 
-    .complemento-sobre img {
-        position: unset;
-        width: 100%;
-    }
 
     /************************** SERVIÇOS ***/
 
