@@ -540,15 +540,6 @@ a {
     z-index: 0;
 }
 
-.complemento-sobre img {
-    position: relative;
-    left: 50px;
-    top: 50px;
-    width: 90%;
-    z-index: 1000;
-    animation: rotate 20s linear infinite;
-}
-
 @keyframes rotate {
     from {
         transform: rotate(0deg);
@@ -622,13 +613,17 @@ a {
     gap: 1.5rem;
 }
 
-.box-skills i {
-    font-size: 4rem;
-    color: var(--color-white);
+.box-skills img {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }
+
 
 .box-skills h3 {
     font-size: 1.8rem;
+    text-align: center;
 }
 
 .box-skills p {
@@ -650,7 +645,7 @@ a {
     }
 }
 
-/*************** SERVIÇOS *****/
+/*************** Projetos *****/
 .servicos {
     background-color: var(--color-white);
     width: 100vw;
