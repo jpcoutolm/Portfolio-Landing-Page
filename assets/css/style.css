@@ -545,8 +545,37 @@ a {
 
 .imagem-sobre img {
     width: 90%;
-    z-index: 99;
+    height: auto;
     border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Media Queries para telas pequenas */
+@media (max-width: 768px) {
+    .container-sobre {
+        flex-direction: column; /* Empilha os itens em telas pequenas */
+        align-items: center;
+    }
+
+    /* Muda a ordem dos elementos para colocar a imagem em cima do texto */
+    .imagem-sobre {
+        width: 70%; /* Ajusta a largura da imagem */
+        height: 70%;
+        order: 1; /* Coloca a imagem antes do texto */
+    }
+
+    .left-sobre,
+    .right-sobre {
+        width: 100%; /* As colunas ficam em 100% da largura, empilhando os itens */
+        order: 2; /* Coloca o conteúdo "Sobre mim" após a imagem */
+    }
+}
+
+@media (max-width: 480px) {
+    .imagem-sobre {
+        width: 80%; /* Ajusta ainda mais o tamanho da imagem em telas muito pequenas */
+        height: 80%;
+    }
 }
 
 /*************** SKILLS *****/
