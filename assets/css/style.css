@@ -561,12 +561,14 @@ a {
 }
 
 .imagem-sobre img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5%;
+    width: 100%;
+    height: 420px;
     object-fit: cover;
+    object-position: center top;
+    border-radius: 15px;
     display: block;
 }
+
 
 
 /* Media Queries para telas pequenas */
