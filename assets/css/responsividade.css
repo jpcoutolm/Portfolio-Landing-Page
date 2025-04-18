@@ -36,11 +36,14 @@
 }
 
 .imagem-sobre {
-    justify-content: center;
-    width: 80%; /* Ajuste da largura da imagem para telas menores */
+    width: 90%;
     height: auto;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
+    justify-content: center;
+    position: relative;
+    display: flex;
 }
+
 
 /* Ajuste adicional para alinhamento em telas menores */
 .complemento-sobre {
@@ -54,16 +57,16 @@
     width: 100%;
 }
 
-/* Estilo extra para telas muito pequenas */
 @media (max-width: 480px) {
     .imagem-sobre {
-        width: 80%; /* Ajuste para ainda menor largura em dispositivos muito pequenos */
+        width: 95%;
     }
 
     .headline-sobre span {
-        font-size: 2rem; /* Reduz o tamanho do texto */
+        font-size: 1.5rem;
     }
 }
+
 
 
     /************************** SERVIÇOS ***/

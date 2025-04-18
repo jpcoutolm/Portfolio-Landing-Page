@@ -561,11 +561,13 @@ a {
 }
 
 .imagem-sobre img {
-    width: 90%;
+    max-width: 100%;
     height: auto;
     border-radius: 5%;
     object-fit: cover;
+    display: block;
 }
+
 
 /* Media Queries para telas pequenas */
 @media (max-width: 768px) {
