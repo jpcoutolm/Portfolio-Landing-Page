@@ -36,13 +36,14 @@
 }
 
 .imagem-sobre {
-    width: 90%;
-    height: auto;
-    margin: 0 auto 20px auto;
+    width: 70%;
+    max-width: 300px;
+    margin: 40px auto 20px auto;
     justify-content: center;
     position: relative;
     display: flex;
 }
+
 
 
 /* Ajuste adicional para alinhamento em telas menores */
@@ -59,9 +60,11 @@
 
 @media (max-width: 480px) {
     .imagem-sobre {
-        width: 95%;
+        width: 80%;
+        max-width: 260px;
+        margin-top: 40px;
     }
-
+    
     .headline-sobre span {
         font-size: 1.5rem;
     }
