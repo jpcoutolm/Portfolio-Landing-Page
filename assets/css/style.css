@@ -1266,3 +1266,8 @@ a {
 .credits-column p {
     margin: 0.2rem 0;
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

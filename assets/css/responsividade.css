@@ -225,3 +225,19 @@
         margin-top: 0;
     }
 }
+
+@media (max-width: 768px) {
+    .servicos {
+      width: 100%;
+      overflow-x: hidden;
+      padding: 2rem 1rem;
+    }
+  
+    .card-servicos,
+    .card-servicos-left {
+      width: 90%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+    }
+  }
+  
